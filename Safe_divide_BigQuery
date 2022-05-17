@@ -1,0 +1,12 @@
+Select
+  Income_Net, 
+  (ieee_divide
+    (Income_Net, 3)
+      AS Customer),
+  Product
+
+From 
+  Sales
+
+
+
